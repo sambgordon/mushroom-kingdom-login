@@ -1,0 +1,57 @@
+    {
+      "particles":{
+        "number":{
+          "value": 40
+        },
+
+        "color": {
+          "value": "#1e528a"
+        },
+
+        "shape":{
+          "type": "image",
+          "image":{
+            "src": "https://httpsimage.com/v2/d8277669-a009-440b-a102-9d6ffc690b60.png"
+          }
+        },
+
+        "opacity":{
+          "value": 0.9,
+          "anim":{
+            "enable": true,
+            "speed": 1
+          }
+        },
+
+        "size":{
+          "value": 30,
+          "random": false,
+          "anim":{
+            "enable":true
+          }
+        },
+
+        "line_linked": {
+              "enable": false,
+              "distance": 3200,
+              "color": "#1e528a",
+              "opacity": 0.4,
+              "width": 0
+            },
+
+        "move": {
+             "enable": true,
+             "speed": 5,
+             "direction": "none",
+             "random": false,
+             "straight": false,
+             "out_mode": "out",
+             "bounce": false,
+             "attract": {
+               "enable": true,
+               "rotateX": 600,
+               "rotateY": 1200
+             }
+           }
+         }
+       }
